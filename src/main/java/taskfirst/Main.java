@@ -1,9 +1,5 @@
 package taskfirst;
 
-import java.util.Arrays;
-
-import java.util.Arrays;
-
 public class Main {
     private static final int STUDENT_AGE = 19;
 

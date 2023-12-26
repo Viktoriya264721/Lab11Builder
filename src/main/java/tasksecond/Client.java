@@ -3,6 +3,7 @@ package tasksecond;
 import lombok.Getter;
 import lombok.Setter;
 
+
 @Getter @Setter
 public class Client {
     private int id;
@@ -19,5 +20,9 @@ public class Client {
         this.email = email;
         this.gender = gender;
         id = counter++;
+    }
+
+    public enum Gender {
+        MALE, FEMALE
     }
 }

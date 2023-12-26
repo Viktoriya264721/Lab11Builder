@@ -5,7 +5,6 @@ import lombok.Setter;
 
 @Getter @Setter
 public class Client {
-    private static final String Gender = null;
     private int id;
     private static int counter = 0;
     private String name;

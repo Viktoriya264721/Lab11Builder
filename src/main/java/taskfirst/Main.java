@@ -10,7 +10,7 @@ public class Main {
                 .gender("f")
                 .mark(97)
                 .mark(67)
-                .grades(Arrays.asList(61,62))
+                .grades(Arrays.asList(61, 62))
                 .build();
         System.out.println(user);
     }

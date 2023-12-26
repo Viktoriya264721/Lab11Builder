@@ -1,5 +1,5 @@
 package tasksecond;
 
-enum Gender {
+enum Gender_ {
     MALE, FEMALE
 }

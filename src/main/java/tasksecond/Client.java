@@ -4,7 +4,8 @@ import lombok.Getter;
 import lombok.Setter;
 
 
-@Getter @Setter
+@Getter
+@Setter
 public class Client {
     private int id;
     private static int counter = 0;

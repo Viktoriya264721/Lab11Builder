@@ -3,7 +3,7 @@ package taskthird;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-public class ProxyImage implements MyImage{
+public class ProxyImage implements MyImage {
     private String filename;
 
     @Override

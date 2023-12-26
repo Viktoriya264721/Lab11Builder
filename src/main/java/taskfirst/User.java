@@ -1,9 +1,7 @@
 package taskfirst;
 
-import lombok.Getter;
 import lombok.ToString;
 import lombok.experimental.SuperBuilder;
-import lombok.Builder;
 
 @SuperBuilder
 @ToString

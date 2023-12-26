@@ -5,15 +5,16 @@ import lombok.Setter;
 
 @Getter @Setter
 public class Client {
+    private static final String Gender = null;
     private int id;
-    public static int counter = 0;
+    private static int counter = 0;
     private String name;
     private String email;
     private int age;
     private Gender gender;
     
 
-    public Client(String name, int age, String email,Gender gender) {
+    public Client(String name, int age, String email, Gender gender) {
         this.name = name;
         this.age = age;
         this.email = email;

@@ -6,7 +6,7 @@ import java.util.List;
 public class MailBox {
     private List<MailInfo> infos;
 
-    public MailBox(){
+    public MailBox() {
         infos = new ArrayList<>();
     }
 

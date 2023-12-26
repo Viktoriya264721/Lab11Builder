@@ -7,7 +7,8 @@ public class User {
     private double weight;
     private double height;
 
-    public User(String name, int age, Gender gender, double weight, double height) {
+    public User(String name, int age,
+    Gender gender, double weight, double height) {
         this.name = name;
         this.age = age;
         this.gender = gender;
